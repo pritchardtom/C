@@ -10,6 +10,7 @@ All code examples and exercises from the third edition of aforementioned book.
 - Chapter 5
 - Chapter 6
 - Chapter 7
+- Chapter 8
 
 ## To-Do
 
