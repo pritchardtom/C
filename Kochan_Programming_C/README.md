@@ -1,20 +1,23 @@
-# Programming in C - Stephen G. Kochan
+# Programming in C - Stephen G. Kochan (Third Edition)
 
-All code examples and exercises from the third edition of aforementioned book.
+For the majority, code examples are as they appeared in the book, with minor modifications here and there.
+
+The code in exercises is my own.
 
 ## Done
 
-- Chapter  2 - Some Fundamentals
-- Chapter  3 - Compiling/Running First Program
-- Chapter  4 - Variables, Data Types, and Arithmetic Expressions
-- Chapter  5 - Program Looping
-- Chapter  6 - Making Decisions
-- Chapter  7 - Working with Arrays
-- Chapter  8 - Working with Functions
+- Chapter 02 - Some Fundamentals
+- Chapter 03 - Compiling/Running First Program
+- Chapter 04 - Variables, Data Types, and Arithmetic Expressions
+- Chapter 05 - Program Looping
+- Chapter 06 - Making Decisions
+- Chapter 07 - Working with Arrays
+- Chapter 08 - Working with Functions
+- Chapter 09 - Working with Structures (Examples)
 
 ## To-Do
 
-- Chapter  9 - Working with Structures
+- Chapter 09 - Working with Structures (Exercises)
 - Chapter 10 - Character Strings
 - Chapter 11 - Pointers
 - Chapter 12 - Operations on Bits
