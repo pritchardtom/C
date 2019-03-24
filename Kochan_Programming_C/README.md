@@ -29,3 +29,6 @@ The code in exercises is my own.
 - Chapter 18 - Debugging Programs
 - Chapter 19 - Object-Oriented Programming
 
+## Added
+
+- Notes on Structures in Chapter 9 (work in progress)

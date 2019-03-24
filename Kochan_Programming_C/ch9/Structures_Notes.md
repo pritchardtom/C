@@ -154,3 +154,58 @@ struct time lapTimes[200] = { [8] = { 0, 2, 29 } };
 struct time lapTimes[200] = { [8].minutes = 2, [8].seconds = 29 };
 
 ```
+
+#### Looping through Array of Structures
+
+```c
+
+for ( int i = 0; i < 200; ++i ) {
+        printf ("Laptimes: [%i]: %.2i:%.2i\n", i, lapTimes[i].minutes, lapTimes[i].seconds);
+}
+
+```
+
+### Structures of Structures
+
+It is possible for structures to contain structures:
+
+```c
+
+// using original struct definition:
+
+struct time
+{
+        int hour;
+        int minutes;
+        int seconds;
+};
+
+// it's trivial to build structures of struct time:
+
+struct raceSummary
+{
+        struct time startTime;
+        struct time endTime;
+};
+
+// and to define a new variable of raceSummary:
+
+struct raceSummary schedule;
+
+// and to reference it:
+
+schedule.startTime.hour = 10;
+schedule.startTime.minutes = 15;
+
+```
+
+It's also possible to declare/initialise in various ways.  As an example:
+
+```c
+
+// sets startTime to 10:15:00, and endTime to 13:42:58:
+
+struct raceSummary schedule = { { 10, 15, 0}, { 13, 42, 58} };
+
+```
+#### Arrays with Structures of Structures
