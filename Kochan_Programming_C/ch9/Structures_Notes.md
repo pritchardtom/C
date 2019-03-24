@@ -208,4 +208,46 @@ It's also possible to declare/initialise in various ways.  As an example:
 struct raceSummary schedule = { { 10, 15, 0}, { 13, 42, 58} };
 
 ```
-#### Arrays with Structures of Structures
+
+### Structures Containing Arrays
+
+It is often useful to define structures which contain arrays as members.  For example:
+
+```c
+
+struct loginDetails
+{
+        int userID;
+        char password[25];
+};
+
+```
+
+One method of initialising such a structure follows:
+
+```c
+
+struct loginDetails user = { 1, { 'p', 'a', 's', 's', 'w', 'o', 'r', 'd' }};
+
+```
+
+This would create a `user` with a `userID` of *1*, and a `password` set to *password*.
+
+#### Arrays of Structures Containing Arrays
+
+It is likely, in the `struct loginDetails` example, that there would exist more than one employee requiring login information.
+
+This leads to a situation where we have an array of structures, which contain arrays.
+
+For example, we could (foolishly) store this information as follows:
+
+```c
+
+const struct loginDetails users[1000] =
+        { {  1, { 'p', 'a', 's', 's', 'w', 'o', 'r', 'd' } },
+          {  2, { '1', '2', '3', '4'                     } },
+          {  3, { 'a', 'd', 'm', 'i', 'n'                } }, };
+
+```
+
+This array `users` and the elements they contain, can be accessed with: `users[i].userID` or `users[i].password`.
