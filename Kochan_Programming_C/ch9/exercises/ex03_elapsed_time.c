@@ -10,67 +10,61 @@
  *      a time structure of: 5 hours, 58 minutes, and 48 seconds.
  */
 
-// I THINK AN ARRAY MIGHT BE THE BEST IDEA?
-// hours[24]
-// minuntes[60]
-// seconds[60]
-
 #include <stdio.h>
 
 struct time
 {
-        int hours;
+        int hour;
         int minutes;
         int seconds;
 };
 
-struct time diff;
-
-// where time1 = 3:45:15
-// *     time2 = 9:44:03
-//         ans = 5:58:48
-
-// t1 = 00:01:00
-// t2 = 00:30:00
-
-// seconds:
-//      if time1.seconds [15] > time2.seconds [03]
-//              time2.seconds += 60 [03+60 = 63] - time1.seconds[15] = 48
-//
-// minutes:
-//      if time1.minutes > time2.minutes --> diff = time1 - time2
-//              else: subtract an hour from time2.
-
-struct time elapsed_time (struct time time1, struct time time2)
+struct time getTime (void)
 {
-        if ( time1.seconds > time2.seconds ) {
-                time2.seconds += 60;
+        struct time t;
+        printf ("Enter time (h:m:s): ");
+        scanf ("%i:%i:%i", &t.hour, &t.minutes, &t.seconds);
+
+        return t;
+}
+
+/*
+ *      function to calculate elapsed time between t1 and t2.
+ */
+
+
+struct time elapsed_time (struct time t1, struct time t2)
+{
+        struct time result;
+
+        result.hour = t2.hour - t1.hour;
+
+        if ( t1.minutes > t2.minutes ) {
+                --result.hour;
+                result.minutes = (t2.minutes + 60) - t1.minutes;
         }
+        else
+                result.minutes = t2.minutes - t1.minutes;
 
-        diff.seconds = time2.seconds - time1.seconds;
-
-        if ( time2.minutes > time1.minutes ) {
-                --time2.hours;
-                time2.minutes += 60;
+        if ( t1.seconds > t2.seconds ) {
+                --result.minutes;
+                result.seconds = (t2.seconds + 60) - t1.seconds;
         }
+        else
+                result.seconds = t2.seconds - t1.seconds;
 
-        diff.minutes = time1.minutes - time2.minutes;
-        diff.hours = time1.hours - time2.hours;
-
-
-        return diff;
+        return result;
 }
 
 int main (void)
 {
-        struct time time1 = { 03, 45, 15 };
-        struct time time2 = { 9, 44, 03 };
-        // struct time time1 = { 0, 45, 15 };
-        // struct time time2 = { 12, 46, 15 };
+        struct time start, end, ans;
 
-        elapsed_time(time1, time2);
+        start = getTime();
+        end = getTime();
+        ans = elapsed_time(start, end);
 
-        printf ("Diff: %i:%i:%i\n", diff.hours, diff.minutes, diff.seconds);
+        printf ("%2i:%2i:%2i\n", ans.hour, ans.minutes, ans.seconds);
 
         return 0;
 }
