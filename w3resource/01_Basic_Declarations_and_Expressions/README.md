@@ -60,3 +60,23 @@ Then print the employee's ID and salary (with two decimal places) of a particula
 18. Write a C program to convert a given integer (in days) to years, months and days, assumes that all months have 30 days and all years have 365 days.
 
 19. Write a C program that accepts 4 integers p, q, r, s from the user where r and s are positive and p is even. If q is greater than r and s is greater than p and if the sum of r and s is greater than the sum of p and q print "Correct values", otherwise print "Wrong values".
+
+20. Write a C program to print the roots of Bhaskara’s formula from the given three floating numbers. Display a message if it is not possible to find the roots.
+
+21. Write a C program that reads an integer and check the specified range where it belongs. Print an error message if the number is negative and greater than 80.
+
+22. Write a C program that read 5 numbers and sum of all odd values between them.
+
+23. Write a C program that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the said values are valid.
+
+24. Write a C program that reads two integers and checks if they are multiplied or not.
+
+25. Write a C program that reads an integer between 1 and 12 and print the month of the year in English.
+
+26. Write a C program that prints all even numbers between 1 and 50 (inclusive).
+
+27. Write a C program that read 5 numbers and counts the number of positive numbers and negative numbers.
+
+28. Write a C program that read 5 numbers and counts the number of positive numbers and print the average of all positive values.
+
+29. Write a C program that read 5 numbers and sum of all odd values between them.
