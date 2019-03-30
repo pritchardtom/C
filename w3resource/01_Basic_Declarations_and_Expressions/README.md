@@ -80,3 +80,32 @@ Then print the employee's ID and salary (with two decimal places) of a particula
 28. Write a C program that read 5 numbers and counts the number of positive numbers and print the average of all positive values.
 
 29. Write a C program that read 5 numbers and sum of all odd values between them.
+
+30. Write a C program to find and print the square of each one of the even values from 1 to a specified value.
+
+31. Write a C program to check a given integer is positive even, negative even, positive odd or negative odd. Print even if the number is 0.
+
+32. Write a C program to print all numbers between 1 and 100, which, when divided by a number provided at input, the remainder == 3.
+
+33. Write a C program that accepts some integers from the user and find the highest value and the input position.
+
+34. Write a C program to print the numbers from the lowest to the highest (inclusive) and the sum of consecutive integers from a given pair of numbers.
+
+35. Write a C program to check if two numbers in a pair is in ascending order or descending order.
+
+36. Write a C program to read a password until it is correct. For wrong password print "Incorrect password" and for correct password print "Correct password" and quit the program. The correct password is 1234.
+
+37. Write a C program to read the coordinates(x, y) (in Cartesian system) and find the quadrant to which it belongs (Quadrant -I, Quadrant -II, Quadrant -III, Quadrant -IV). Go to the editor
+
+Note: A Cartesian coordinate system is a coordinate system that specifies each point uniquely in a plane by a pair of numerical coordinates.
+These are often numbered from 1st to 4th and denoted by Roman numerals: I (where the signs of the (x,y) coordinates are I(+,+), II (−,+), III (−,−), and IV (+,−).
+
+38. Write a program that reads two numbers and divide the first number by second number. If the division not possible print "Division not possible"
+
+39. Write a C program to calculate the sum of all number not divisible by 17 between two given integer numbers.
+
+40. Write a C program to find all numbers which dividing it by 7 and the remainder is equal to 2 or 3 between two given integer numbers.
+
+41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
+
+42. Write a C program to print a number, it’s square and cube in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
