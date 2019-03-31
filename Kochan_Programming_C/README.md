@@ -13,12 +13,12 @@ The code in exercises is my own.
 - Chapter 06 - Making Decisions
 - Chapter 07 - Working with Arrays
 - Chapter 08 - Working with Functions
-- Chapter 09 - Working with Structures (Examples)
+- Chapter 09 - Working with Structures
+- Chapter 10 - Character Strings (Examples)
 
 ## To-Do
 
-- Chapter 09 - Working with Structures (Exercises)
-- Chapter 10 - Character Strings
+- Chapter 10 - Character Strings (Exercises)
 - Chapter 11 - Pointers
 - Chapter 12 - Operations on Bits
 - Chapter 13 - The Preprocessor
@@ -32,3 +32,4 @@ The code in exercises is my own.
 ## Added
 
 - Notes on Structures in Chapter 9 (work in progress)
+- Notes on Character Strings in Chapter 10 (early draft)
