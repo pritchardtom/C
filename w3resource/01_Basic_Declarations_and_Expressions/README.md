@@ -109,3 +109,25 @@ These are often numbered from 1st to 4th and denoted by Roman numerals: I (where
 41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
 
 42. Write a C program to print a number, it’s square and cube in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
+
+43. Write a C program that reads two integers p and q, print p number of lines in a sequence of 1 to b in a line.
+
+44. Write a C program to calculate the average marks of mathematics of some students. Input 0 (excluding to calculate the average) or negative value to terminate the input process.
+
+45. Write a C program to calculate the value of S where S = 1 + 1/2 + 1/3 + … + 1/50.
+
+46. Write a C program to calculate the value of S where S = 1 + 3/2 + 5/4 + 7/8
+
+47. Write a C program that reads an integer and find all its divisors.
+
+48. Write a C program to read and print the elements of an array of length 7, before print replace every negative number, zero with 100.
+
+49. Write a C program to read and print the elements of an array of length 7, before print, put the triple of the previous position starting from the second position of the array.
+
+50. Write a C program to read an array of length 5 and print the position and value of the array elements of value less than 5.
+
+51. Write a C program to read an array of length 6, change the first element by the last, the second element by the fifth and the third element by the fourth. Print the elements of the modified array.
+
+52. Write a C program to read an array of length 6 and find the smallest element and its position.
+
+53. Write a C program that accepts principle, rate of interest, time and compute the simple interest.
