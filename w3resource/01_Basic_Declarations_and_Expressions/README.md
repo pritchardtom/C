@@ -131,3 +131,35 @@ These are often numbered from 1st to 4th and denoted by Roman numerals: I (where
 52. Write a C program to read an array of length 6 and find the smallest element and its position.
 
 53. Write a C program that accepts principle, rate of interest, time and compute the simple interest.
+
+54. Write a C program that accepts a distance in centimeters and prints the corresponding value in inches.
+
+55. Write a C program that swaps two numbers without using third variable.
+
+56. Write a C program to shift given data by two bits to the left.
+
+57. Write a C program to reverse and print a given number.
+
+58. Write a C program that accepts 4 real numbers from the keyboard and print out the difference of the maximum and minimum values of these four numbers.
+
+59. Write a C program to display sum of series 1 + 1/2 + 1/3 + ... + 1/n.
+
+60. Write a C program to create enumerated data type for 7 days and display their values in integer constants.
+
+61. Write a C program that accepts a real number x and prints out the corresponding value of sin(1/x) using 4-decimal places.
+
+62. Write a C program that accepts a positive integer less than 500 and prints out the sum of the digits of this number.
+
+63. Write a C program that accepts a positive integer n (< 100) from the user, and prints out the sum 1^4 + 2^4 + 4^4 + 7^4 + 11^4 + ... + m^4, where m is less than or equal to n.
+
+64. Write a C program that accepts integers from the user until a zero or a negative number, display the number of positive values, the minimum value, the maximum value and the average of all numbers.
+
+65. Write a C program that prints out the prime numbers between 1 and 200. The output should be such that each row contains a maximum of 20 prime numbers.
+
+66. Write a C program that generates 50 random numbers between -0.5 and 0.5 and writes them in a file rand.dat. The first line of ran.dat contains the number of data and the next 50 lines contains the 50 random numbers.
+
+67. Write a C program to evaluate the equation y=xn when n is a non-negative integer.
+
+68. Write a C program to print the powers of 2 table for the power 0 to 10, both positive and negative.
+
+69. Write a C program to print a binomial coefficient table.
