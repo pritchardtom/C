@@ -163,3 +163,43 @@ These are often numbered from 1st to 4th and denoted by Roman numerals: I (where
 68. Write a C program to print the powers of 2 table for the power 0 to 10, both positive and negative.
 
 69. Write a C program to print a binomial coefficient table.
+
+70. Write a C program to print the alphabet set in decimal and character form.
+
+71. Write a C program to copy a given string into another and count the number of characters copied.
+
+72. Write a C program to remove any negative sign in front of a number.
+
+73. Write a C program that reads in two integers and check whether the first integer is a multiple of the second integer.
+
+74. Write a C program to display the integer equivalents of letters.
+
+75. Write a C program that accepts one seven-digit number and separates the number into its individual digits, and prints the digits separated from one another by two spaces each.
+
+76. Write a C program to calculate and prints the squares and cubes of the numbers from 0 to 20 and uses tabs to display them in a table of values.
+
+77. Write a C program that accepts principal amount, rate of interest and days for a loan and calculate the simple interest for the loan, using the following formula: interest = principal * rate * days / 365.
+
+78. Write a C program to demonstrates the difference between predecrementing and postdecrementing using the decrement operator.
+
+79. Write a C program using looping to produce the following table of values:
+
+x       x+2     x+4     x+6
+--------------------------------
+1       3       5       7
+4       6       8       10
+7       9       11      13
+10      12      14      16
+13      15      17      19
+
+80. Write a C program that reads the side (side sizes between 1 and 10 ) of a square and prints square using hash (#) character.
+
+81. Write a C program that reads the side (side sizes between 1 and 10 ) of a square and prints a hollow square using hash (#) character.
+
+82. Write a C program that reads in a five-digit integer and determines whether or not it’s a palindrome.
+
+83. Write a C program which reads an integer (7 digits or fewer) and count number of 3s in the given number.
+
+84. Write a C program to calculate and print the average of some integers. Accept all the values preceding 888.
+
+85. Write a C program to print a table of all the Roman numeral equivalents of the decimal numbers in the range 1 to 50.
