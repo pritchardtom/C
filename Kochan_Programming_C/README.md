@@ -14,12 +14,11 @@ The code in exercises is my own.
 - Chapter 07 - Working with Arrays
 - Chapter 08 - Working with Functions
 - Chapter 09 - Working with Structures
-- Chapter 10 - Character Strings (Examples)
+- Chapter 10 - Character Strings
+- Chapter 11 - Pointers
 
 ## To-Do
 
-- Chapter 10 - Character Strings (Exercises)
-- Chapter 11 - Pointers
 - Chapter 12 - Operations on Bits
 - Chapter 13 - The Preprocessor
 - Chapter 14 - More on Data Types
